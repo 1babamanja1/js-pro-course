@@ -1,0 +1,9 @@
+.viewer{
+    font-family:'SigmarOne';
+    font-size: 50px;
+    margin: 5px auto;
+    color: #2E3535;
+    border: 3px solid #2E3535;
+    width: 350px;
+    border-radius: 50px
+}

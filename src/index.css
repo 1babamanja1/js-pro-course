@@ -1,5 +1,8 @@
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #FDFAF4;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +13,13 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family:'SigmarOne';
+  src: local('SigmarOne'), url('./fonts/SigmarOne.ttf') format('opentype');
+}
+@font-face {
+  font-family:'Roboto';
+  src: local('Roboto'), url('./fonts/Roboto.ttf') format('opentype');
 }

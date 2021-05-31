@@ -1,0 +1,25 @@
+.button{
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    color: #ffffff;
+    font-family:'Roboto';
+    font-size: 15px;
+    margin: auto 5px;
+}
+
+.button:hover{
+    color: #2E3535;
+    cursor: pointer;
+}
+.plus{
+    background-color: #FCC776;
+}
+
+.minus{
+    background-color: #BD7CB4;
+}
+
+.reset{
+    background-color: #53C4C1;
+}
