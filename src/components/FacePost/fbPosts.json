@@ -1,0 +1,26 @@
+[
+  {
+    "name": "name",
+    "postDescription": "postDescription",
+    "location": "location",
+    "timeText": "05.07.2021",
+    "onClickLike": "onClickLike",
+    "onClickReply": "onClickReply"
+  },
+  {
+    "name": "name2",
+    "postDescription": "postDescription2",
+    "location": "location2",
+    "timeText": "07.07.2021",
+    "onClickLike": "onClickLike",
+    "onClickReply": "onClickReply"
+  },
+  {
+    "name": "name3",
+    "postDescription": "postDescription3",
+    "location": "location3",
+    "timeText": "06.07.2021",
+    "onClickLike": "onClickLike",
+    "onClickReply": "onClickReply"
+  }
+]

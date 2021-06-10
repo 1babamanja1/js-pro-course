@@ -23,3 +23,9 @@
 .reset{
     background-color: #53C4C1;
 }
+
+.button:disabled{
+    background-color: #A1A0A3;
+    color: #C8C6CA;
+    cursor: auto;
+}

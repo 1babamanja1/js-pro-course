@@ -1,0 +1,15 @@
+.post{
+    width: 200px;
+    height: 300px;
+    border: 1px solid;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+.title{
+    background-color: #FFE791;
+    padding: 5px;
+    margin: 0;
+    min-height: 25%;
+    color: brown;
+}

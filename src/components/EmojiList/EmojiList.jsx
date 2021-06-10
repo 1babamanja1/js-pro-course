@@ -2,12 +2,9 @@ import './emojiList.css'
 import { EmojiItem } from '../EmojiItem/EmojiItem'
 import allEmojis from './emojiList.json'
 
-const List = (
-    allEmojis.map(item => (
-        <EmojiItem key={item.title} title={item.title} symbol={item.symbol}/>
-    )));
-
 export const EmojiList = () => {
 
-    return <div class='emojiList'>{List}</div>
+    return <div className='emojiList'>{allEmojis.map(item => (
+        <EmojiItem key={item.title} title={item.title} symbol={item.symbol}/>
+        ))}</div>
 }

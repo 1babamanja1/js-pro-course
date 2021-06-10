@@ -1,0 +1,29 @@
+.postHeader{
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+}
+.category{
+    background-color: yellow;
+    padding: 3px;
+    width: fit-content;
+    z-index: 3;
+}
+.callout{
+    border: 2px yellow solid;
+    padding: 2px;
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    display: flex;
+    z-index: 3;
+}
+
+.onlinerTitle{
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans Condensed',sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    z-index: 3;
+}

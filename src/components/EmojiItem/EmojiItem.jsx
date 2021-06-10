@@ -2,7 +2,7 @@ import './emojiItem.css'
 
 export const EmojiItem = ({title, symbol}) => {
     return (
-        <div class='emoji'>
+        <div className='emoji'>
             {symbol} {title}
         </div>
     )
