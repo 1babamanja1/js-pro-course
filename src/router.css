@@ -1,0 +1,27 @@
+.router-nav{
+    display: flex;
+    height: 100vh;
+}
+
+.navigation{
+    width: 20%;
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    border-right: #2E3535 3px solid;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: #2E3535;
+    line-height: 30px;
+}
+.nav-item a:hover{
+    font-weight: 600;
+}
+
+.router-body{
+    width: 80%;
+}
+
+

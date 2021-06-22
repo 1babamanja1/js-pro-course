@@ -7,12 +7,12 @@ export const OnlinerPost = ({backgroundImage, category, callout, onlinerTitle, o
             setTitle(onlinerTitle2)
     }
     return(
-    <div className='onlinerPost' onClick={postOnClick} style={{backgroundImage: `url(${backgroundImage})`}}>
-        <div className="postHeader">
-            <div className="category">{category}</div>
-            <div className="callout">{callout}</div>
-        </div>
+        <div className='onlinerPost' onClick={postOnClick} style={{backgroundImage: `url(${backgroundImage})`}}>
+            <div className="postHeader">
+                <div className="category">{category}</div>
+                <div className="callout">{callout}</div>
+            </div>
         <div className="onlinerTitle">{title}</div>
     </div>
-)
+    )
 }

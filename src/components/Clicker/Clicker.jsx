@@ -21,12 +21,13 @@ export const Clicker = () => {
     const countReset = () => {
         setCount(0)
     }
-
         return(
-    <div className='clicker'>
+            <div>
+                <h1>Clicker</h1>
+                <div className='clicker'>
         <Viewer text = {count} />
         <Button sign='plus' onclick={ countUp } btnName='UP' />
         <Button sign='minus' onclick={ countDown } btnName='DOWN' />
         <Button sign='reset' onclick={ countReset }  btnName='RESET' />
-    </div>)
+    </div> </div>)
 }

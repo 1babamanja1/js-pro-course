@@ -15,8 +15,10 @@ export const ImageList = () => {
             .then (result => setImages(result))
         },[]);
     
-    return <div className='imageList'>{images.filter(item => item.id<=100).map(item =>
+    return <div>
+        <h1>List of Images</h1>
+        <div  className='imageList'>{images.filter(item => item.id<=100).map(item =>
         <Image key={getID()} source={item.url}/>)}
-    </div>
+    </div></div>
 
 }

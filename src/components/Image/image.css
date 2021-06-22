@@ -5,7 +5,9 @@
 }
 
 .big{
-    position: absolute;
+    position: fixed;
+    top: calc(50vh - 220px);
+    left: calc(50% - 30px);
     width: 300px;
     height: 300px;
 }
