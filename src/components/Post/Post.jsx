@@ -11,6 +11,6 @@ export const Post = ({title , body , author, modalBody}) => {
         <div className = 'post'>
             <p className = 'title'>{title}</p>
             <span className='post-body'>{body}</span>
-            <p onClick={clickToOpenModal}>Author: {author} </p>
+            <p onClick={clickToOpenModal}>Author: <span className={'post-author'}> {author} </span> </p>
         </div>)
 }

@@ -7,13 +7,24 @@ function getID() {
 
 export const FacePost = () => {
     return <div className='facePost'>
+        <h1>Posts like Facebook</h1>
         {fbPosts.map(item =>
-            <ul key={getID()}>
-                <li>{item.name}</li>
-                <li>{item.postDescription}</li>
-                <li>{item.location}</li>
-                <li>{item.timeText}</li>
-            </ul>
+                <div className='fb-post' key={getID()}>
+                    <div className='fb-photo' style={{backgroundImage: `url(${item.avatar})`}}></div>
+                    <div className='fb-text'>
+                        <div className='fb-header'>
+                            <span className='fb-name'> {item.name} </span>
+                            <span className='fb-add-info'> {item.location} </span>
+                        </div>
+                        <div className='fb-body'> {item.postDescription}</div>
+                        <div className='fb-footer'>
+                            <span className='fb-button'>Like</span>
+                            <span className='fb-button'>Reply</span>
+                            <span className='fb-add-info'>{item.timeText}</span>
+                        </div>
+                    </div>
+                </div>
             )}
         </div>
         }
+

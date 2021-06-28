@@ -3,3 +3,8 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.modal-in-posts{
+    display: flex;
+    flex-direction: column;
+}

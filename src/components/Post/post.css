@@ -22,3 +22,9 @@
 .post-body{
 overflow: auto;
 }
+.post-author{
+    cursor: pointer;
+}
+.post-author:hover{
+    color: #FCC776;
+}

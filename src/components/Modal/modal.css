@@ -4,9 +4,9 @@
     height: 100vh;
     background: #000000cc;
     top: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
 }
 
 .container{
@@ -17,6 +17,10 @@
     padding-top: 50px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top:calc(20vh);
+    right:calc(50%);
 }
 
 .background-hide{
@@ -25,4 +29,8 @@
 
 .background-hide .container{
     display: none;
+}
+
+.container .button {
+    background-color: #FCC776;
 }

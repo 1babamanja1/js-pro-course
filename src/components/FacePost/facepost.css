@@ -1,0 +1,41 @@
+.fb-post {
+    width: 500px;
+    height: 100px;
+    border: 1px solid darkblue;
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    align-items: center;
+    margin: 5px;
+}
+
+.fb-photo {
+    background-position: center;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+}
+
+.fb-text {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.fb-name {
+    color: blue;
+    font-weight: 600;
+}
+
+.fb-add-info {
+    color: grey;
+}
+
+.fb-button {
+    color: blue;
+    cursor: pointer;
+    margin-right: 5px;
+}
